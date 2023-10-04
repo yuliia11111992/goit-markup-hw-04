@@ -85,6 +85,9 @@ justify-content: center;
 align-items: flex-start;
 gap: 20px;
 }
+.link_studio:hover::after {
+  width: 100%;
+}
 
 .link_studio::after {
   content: "";
@@ -98,6 +101,8 @@ gap: 20px;
 .navigation_list{
   display: flex;
   gap: 40px ;
+
+  
 }
 .navigation_list .link:hover {color: #404bbf;}
 .navigation_list .link:focus {color: #404bbf;}
