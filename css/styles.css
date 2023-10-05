@@ -67,6 +67,7 @@ line-height: 1.17;
 
 }
 .link {
+  position: relative;
  color: #2e2f42;
 line-height: 1.5;
 font-weight: 500;
@@ -74,22 +75,15 @@ letter-spacing: 0.02em;
 padding: 24px 0; 
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.link_studio {
+.active {
   color: #404bbf;
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 position: relative;
-display: flex;
-width: 48px;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-gap: 20px;
-}
-.link_studio:hover::after {
-  width: 100%;
+
 }
 
-.link_studio::after {
+.navigation_list .link:hover::after, .active::after{
+  width: 100%;
   content: "";
   position: absolute;
   left: 0;
@@ -98,6 +92,8 @@ gap: 20px;
   background-color: #404bbf; 
   border-radius: 2px;
 }
+
+
 .navigation_list{
   display: flex;
   gap: 40px ;
