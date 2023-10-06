@@ -414,7 +414,14 @@ background:  #2E2F42;
 padding: 100px 0;
 
  }
+.footer-info{
 
+}
+.soc {
+  margin-right: 120px
+}
+.footer_soc {
+}
  .logo_footer {
   margin-bottom: 16px; 
  color: #4D5AE5;
