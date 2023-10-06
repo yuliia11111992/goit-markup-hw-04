@@ -357,10 +357,10 @@ margin-bottom: 72px;}
   position: relative;
   overflow: hidden;
 }
-.app_img:hover{
+.app_img:hover.portfolio_paragrapf{
   transform: translateY(0%);
 }
-.portfolio_paragraf{
+.portfolio_paragrapf{
   position: absolute; 
   top: 0;
   font-size: 16px;
@@ -425,6 +425,10 @@ align-items: baseline;
 }
 .soc {
 }
+.soc_list_footer{
+  display: flex;
+  gap: 16px;
+}
 .footer_soc {
   font-weight: 500;
   font-size: 16px;
@@ -433,6 +437,7 @@ align-items: baseline;
   color:#FFFFFF;
   margin-bottom: 16px;
 }
+
  .logo_footer {
   margin-bottom: 16px; 
  color: #4D5AE5;
@@ -451,6 +456,4 @@ text-transform: uppercase;
  line-height: 116.667%;
  text-transform: uppercase;
 color: #f4f4fd;
-
-
 }
