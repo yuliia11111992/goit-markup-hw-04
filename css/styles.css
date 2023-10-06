@@ -383,8 +383,8 @@ margin-bottom: 72px;}
   transform: translateY(0%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio_list_item:hover .overlay{
-  transform: translateY(0%)
+.portfolio_list_item:hover.portfolio_text{
+  transform: translateY(0%);
 }
 .app_item {
   padding: 32px 16px ;
