@@ -287,7 +287,7 @@ letter-spacing: 0.4px;
   .soc_list_item{
     width: 40px;
     height: 40px;
-    transform: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 
   }
   .soc_list_item_link{
@@ -298,6 +298,7 @@ letter-spacing: 0.4px;
     display: flex;
     align-items: center;
     justify-content: center;
+    transform: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .soc_list_item_link:hover {
